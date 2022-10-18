@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <form>
-        <label>What is your date of birth?</label>
-        <input/>
+    <form id="form">
+        <label>What is your date of birth? (DDMMYYYY format)</label>
+        <input type="text" placeholder="Enter date" id="Enter-date" onblur="getVal()"/>
+        <label>What is your gender? </label>
+        <input type="text" placeholder="Enter gender" id="Enter-gender" onblur="getVal()"/>
     </form>
+    <div id="output-name"></div>
 </body>
 </html>
