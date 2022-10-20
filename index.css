@@ -15,6 +15,7 @@ form {
 label {
     font-family: 'Gaegu', cursive;
     padding: 3%;
+    color: #1c526b;
 }
 
 input {
@@ -24,10 +25,24 @@ input {
     width: 100%;
     cursor: pointer;
     font-family: 'Gaegu', cursive;
+    color: #1c526b;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
+    cursor: pointer;
+    font-family: 'Gaegu', cursive;
+    background-color:#1c526b;
+    color:aliceblue;
+
 }
 
 div {
     font-family: 'Gaegu', cursive;
     margin-left: 10%;
-    color: orchid;
+    color: #1c526b;
 }
