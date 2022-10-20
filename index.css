@@ -1,11 +1,15 @@
+img{
+    border-radius: 10px;
+    width:8%;
+}
 form {
-    background-color: #a49fef;
+    background-color: #FDD900;
     border: none;
     color: white;
-    padding: 7%;
+    padding: 5%;
     text-decoration: none;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 22%;
     cursor: pointer;
     border-radius: 5px;
     width: 50%;
@@ -15,7 +19,7 @@ form {
 label {
     font-family: 'Gaegu', cursive;
     padding: 3%;
-    color: #1c526b;
+    color: #009A08;
 }
 
 input {
@@ -25,7 +29,7 @@ input {
     width: 100%;
     cursor: pointer;
     font-family: 'Gaegu', cursive;
-    color: #1c526b;
+    color: #009A08;
 }
 button {
     border-radius: 5px;
@@ -36,13 +40,15 @@ button {
     margin-left: 35%;
     cursor: pointer;
     font-family: 'Gaegu', cursive;
-    background-color:#1c526b;
-    color:aliceblue;
+    background-color:#F40000;
+    color:#FDD900;
+    font-weight: bold;
 
 }
 
 div {
     font-family: 'Gaegu', cursive;
-    margin-left: 10%;
-    color: #1c526b;
+    margin-left: 22%;
+    color: #009A08;
+    font-weight: bold;
 }
