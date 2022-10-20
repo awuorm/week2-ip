@@ -1,0 +1,33 @@
+form {
+    background-color: #a49fef;
+    border: none;
+    color: white;
+    padding: 7%;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    font-family: 'Gaegu', cursive;
+}
+
+label {
+    font-family: 'Gaegu', cursive;
+    padding: 3%;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 3%;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Gaegu', cursive;
+}
+
+div {
+    font-family: 'Gaegu', cursive;
+    margin-left: 10%;
+    color: orchid;
+}

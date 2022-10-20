@@ -10,10 +10,11 @@
 </head>
 <body>
     <form id="form">
-        <label>What is your date of birth? (DDMMYYYY format)</label>
-        <input type="text" placeholder="Enter date" id="Enter-date" onblur="getVal()"/>
-        <label>What is your gender? </label>
-        <input type="text" placeholder="Enter gender" id="Enter-gender" onblur="getVal()"/>
+        <label>What is your date of birth? (YYYY-MM-DD format)</label>
+        <input type="text" placeholder="Enter date" id="Enter-date" onfocus="this.value=''" onblur="getVal()"/>
+        <label>What is your gender? (male/female) </label>
+        <input type="text" placeholder="Enter gender" id="Enter-gender" onfocus="this.value=''" onblur="getVal()"/>
+        <button type="button">Submit</button>
     </form>
     <div id="output-name"></div>
 </body>
