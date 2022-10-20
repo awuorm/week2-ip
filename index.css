@@ -1,0 +1,54 @@
+img{
+    border-radius: 10px;
+    width:8%;
+}
+form {
+    background-color: #FDD900;
+    border: none;
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 22%;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    font-family: 'Gaegu', cursive;
+}
+
+label {
+    font-family: 'Gaegu', cursive;
+    padding: 3%;
+    color: #009A08;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 3%;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Gaegu', cursive;
+    color: #009A08;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 1%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
+    cursor: pointer;
+    font-family: 'Gaegu', cursive;
+    background-color:#F40000;
+    color:#FDD900;
+    font-weight: bold;
+
+}
+
+div {
+    font-family: 'Gaegu', cursive;
+    margin-left: 22%;
+    color: #009A08;
+    font-weight: bold;
+}
