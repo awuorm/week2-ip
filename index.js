@@ -29,7 +29,7 @@ function getVal() {
     let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let dob = document.getElementById('Enter-date').value;
     let gender = document.getElementById('Enter-gender').value;
-    gender = gender.toLowerCase()
+    gender = gender.toLowerCase();
     let birthday = new Date(dob);
     let dayOfWeek = birthday.getDay();
     if (gender == "female") {
